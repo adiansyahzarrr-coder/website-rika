@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Untuk Rika Nurul Aeni ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="stars"></div>
+
+<audio id="musik" loop>
+    <source src="music/music.mp3" type="audio/mpeg">
+</audio>
+
+<!-- HALAMAN 1 -->
+<section id="page1" class="page">
+    <div class="box">
+        <h1>💙</h1>
+        <h2>Untuk Rika Nurul Aeni</h2>
+
+        <p>
+            Hai Rika...
+            <br><br>
+            Aku membuat halaman ini untuk minta maaf sama dedew.
+            <br><br>
+            Aku hanya berharap kamu bersedia membaca isi hatiku sampai selesai.
+        </p>
+
+        <button onclick="bukaPesan()">
+            💌 Buka Pesan
+        </button>
+    </div>
+</section>
+
+<!-- HALAMAN 2 -->
+<section id="page2" class="page hidden">
+    <div class="surat">
+
+        <h2>Maaf...</h2>
+
+        <p id="typing"></p>
+
+        <button onclick="akhirPage()">
+            Lanjut ➜
+        </button>
+
+    </div>
+</section>
+
+<!-- HALAMAN 3 -->
+<section id="page4" class="page hidden">
+
+    <div class="box">
+
+        <h2>Terima Kasih Sudah Membaca</h2>
+
+        <p>
+            Kalau boleh jujur...
+            <br><br>
+            Apakah kamu bersedia memaafkanku?
+        </p>
+
+        <div class="btn-group">
+
+            <button class="yes" onclick="maafin()">
+                ❤️ Maafin Aku
+            </button>
+
+            <button
+                id="noBtn"
+                class="no"
+                onmouseover="kabur()"
+                onclick="kabur()">
+                Tidak 🙈
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- HALAMAN 4 -->
+<section id="page5" class="page hidden">
+
+    <div class="box">
+
+        <h1>❤️</h1>
+
+        <h2>Terima Kasih Rika</h2>
+
+        <p>
+            Terima kasih sudah memberikan maafmu.
+            <br><br>
+            Aku akan berusaha menjadi pribadi yang lebih baik.
+            <br><br>
+            Semoga dedewwww selaaaluuuu sabaaaar.
+            <br><br>
+            terimaaaa kaciiiiii sayangggg.
+            <br><br>
+            Dan semoga kita bisa tersenyum lagi suatu hari nanti.
+        </p>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
